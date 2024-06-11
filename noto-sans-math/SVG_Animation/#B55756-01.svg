@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203 43">
+  <defs>
+    <style>
+      :root {
+        --k-color: #B55756;
+        --k-width: 0.1px;
+        --k-length: 1000;
+        --k-delay: 10s;
+      }
+
+      .cls-1 {
+        fill: var(--k-color);
+        fill-opacity: 0;
+        stroke: var(--k-color);
+        stroke-width: var(--k-width);
+        stroke-dasharray: 0 var(--k-length);
+        animation: draw var(--k-delay) infinite;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      @keyframes draw {
+        to {
+          stroke-dasharray: var(--k-length) 0;
+          fill-opacity: 1;
+        }
+      }
+    </style>
+  </defs>
+  <g id="_图层_1-2" data-name="图层 1">
+    <g>
+      <g>
+        <path class="cls-1"
+          d="M10,32.89V9.89h6v9.31l10.2-9.31h2.6l-8.6,7.89,9.85,15.11h-6.94l-7.11-10.98v10.98h-6ZM12,30.89h2V11.89h-2v19ZM23.41,30.89h2.53l-7.33-12.1-1.57,1.5,6.37,10.59Z" />
+        <path class="cls-1" d="M31,32.89V9.89h14v2h-8v8h7v2h-7v9h8v2h-14ZM33,30.89h2V11.89h-2v19Z" />
+        <path class="cls-1" d="M49,32.89V9.89h14v2h-8v8h7v2h-7v9h8v2h-14ZM51,30.89h2V11.89h-2v19Z" />
+        <path class="cls-1"
+          d="M68,32.89V9.89h2.36l14.64,16V9.89h2v23h-2.85l-14.15-15.54v15.54h-2ZM85,31.18v-3.08l-15-16v3.11l15,15.97Z" />
+        <path class="cls-1" d="M92,32.89V9.89h14v2h-8v8h7v2h-7v9h8v2h-14ZM94,30.89h2V11.89h-2v19Z" />
+        <path class="cls-1"
+          d="M120.37,33.11c-2.31,0-4.24-.47-5.78-1.41s-2.69-2.27-3.45-4c-.76-1.73-1.14-3.76-1.14-6.09s.41-4.24,1.23-5.97c.82-1.73,2.04-3.08,3.64-4.05,1.6-.97,3.55-1.45,5.84-1.45,1,0,1.98.06,2.95.19.97.12,1.95.39,2.95.78l-.81,1.75c-1.67-.71-3.39-1.06-5.16-1.06-.9,0-1.73.1-2.52.3-.78.2-1.49.47-2.14.83v17.56c1.29.65,2.84.97,4.66.97.85,0,1.74-.07,2.66-.2.92-.14,1.81-.32,2.69-.55v1.84c-.98.21-1.92.35-2.81.44-.9.08-1.83.12-2.81.12ZM114,29.48v-15.49c-1.77,1.77-2.66,4.34-2.66,7.71,0,1.69.22,3.18.66,4.5s1.1,2.41,2,3.28Z" />
+        <path class="cls-1"
+          d="M131,32.89V9.89h6v10h7v-10h6v23h-6v-11h-7v11h-6ZM133,30.89h2V11.89h-2v19ZM146,30.89h2V11.89h-2v19Z" />
+        <path class="cls-1" d="M155,32.89V9.89h14v2h-8v8h7v2h-7v9h8v2h-14ZM157,30.89h2V11.89h-2v19Z" />
+        <path class="cls-1"
+          d="M174,32.89V9.89h2.24l14.76,16V9.89h2v23h-2.96l-14.04-15.54v15.54h-2ZM191,31.18v-3.08l-15-16v3.11l15,15.97Z" />
+      </g>
+      <rect class="cls-2" width="203" height="43" />
+    </g>
+  </g>
+</svg>
