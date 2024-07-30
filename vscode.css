@@ -1,0 +1,38 @@
+/*css-background-start*/
+/*background.ver.1.2.13*/
+.monaco-workbench .part.editor>.content .editor-group-container>.editor-group-watermark>.letterpress {
+	aspect-ratio: 4/1;
+	background-image: url("vscode-file://vscode-app/e%3A/ZM/DesignResources/AIllustrator/KeeneChen-Logo/noto-sans-math/SVG_Animation/KeeneChen-B55756-08.svg");
+	background-position-x: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	max-height: 100%;
+	width: 800px
+}
+
+.monaco-workbench.vs-dark .part.editor>.content .editor-group-container .editor-group-watermark>.letterpress,
+.monaco-workbench.hc-light .part.editor>.content .editor-group-container .editor-group-watermark>.letterpress,
+.monaco-workbench.hc-black .part.editor>.content .editor-group-container .editor-group-watermark>.letterpress {
+	background-image: url("vscode-file://vscode-app/e%3A/ZM/DesignResources/AIllustrator/KeeneChen-Logo/noto-sans-math/SVG_Animation/KeeneChen-B55756-08.svg")
+}
+
+[id='workbench.parts.editor'] .split-view-view .editor-container .overflow-guard>.monaco-scrollable-element>.monaco-editor-background {
+	background: none;
+}
+
+[id='workbench.parts.editor'] .split-view-view:nth-child(1n + 1) .editor-instance>.monaco-editor .overflow-guard>.monaco-scrollable-element::after,
+[id='workbench.parts.editor'] .split-view-view:nth-child(1n + 1) .editor-group-container.empty::before {
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 99;
+	pointer-events: none;
+	background-image: url('vscode-file://vscode-app/e%3A/ZM/DesignResources/AIllustrator/KeeneChen-Logo/noto-sans-math/SVG_Animation/KeeneChen-B55756-08.svg');
+	background-repeat: no-repeat;
+	background-position: bottom 0px right 20px;
+	background-size: 200px 40px;
+	opacity: 0.6;
+}
+
+/*css-background-end*/
