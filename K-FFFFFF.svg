@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      :root {
+        --k-color: #fff;
+        --k-width: 1px;
+        --k-length: 500;
+        --k-delay: 5s;
+      }
+
+      .cls-1 {
+        fill: var(--k-color);
+        fill-opacity: 0;
+        stroke: var(--k-color);
+        stroke-width: var(--k-width);
+        stroke-dasharray: 0 var(--k-length);
+        animation: draw var(--k-delay) infinite;
+      }
+
+      @keyframes draw {
+        to {
+          stroke-dasharray: var(--k-length) 0;
+          fill-opacity: 1;
+        }
+      }
+    </style>
+  </defs>
+  <g id="_图层_1-2" data-name="图层 1">
+    <g>
+      <rect width="200" height="200"/>
+      <path class="cls-1" d="M46,174V26h36v59.9l61.18-59.9h15.6l-51.6,50.79,59.1,97.21h-41.62l-42.66-70.68v70.68h-36ZM57,163h14V37h-14v126ZM130.08,163h16.4l-47.54-78.48-10.18,9.76,41.32,68.72Z"/>
+    </g>
+  </g>
+</svg>

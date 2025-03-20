@@ -1,0 +1,64 @@
+%!Adobe-FontList 1.24
+%Locale:0x804
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansMath-Regular
+FamilyName:Noto Sans Math
+StyleName:Regular
+FullName:Noto Sans Math Regular
+MenuName:Noto Sans Math
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\D_Project\Code_Project\KeeneChen-Logo\Font\Noto_Sans_Math\NotoSansMath-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:586780
+FileModTime:1725491480
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans Math
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\D_Project\Code_Project\KeeneChen-Logo\Font\Noto_Sans_Math\OFL.txt
+FileModTime:1732786158
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:holyunion
+FamilyName:Holy Union
+StyleName:Regular
+FullName:Holy Union
+MenuName:Holy Union
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\D_Project\Code_Project\KeeneChen-Logo\Font\holyuni\holyuni.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:83928
+FileModTime:1562828322
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Holy Union
+NameArray:0,Win,1,Holy Union
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\D_Project\Code_Project\KeeneChen-Logo\Font\holyuni\版权说明.txt
+FileModTime:1562828322
+%EndFont
+
